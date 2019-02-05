@@ -1,0 +1,7 @@
+#flexp{
+	display: flex;
+	justify-content: left;
+	position: sticky;
+	top:20px;
+	left:0;
+}
