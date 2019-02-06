@@ -1,7 +1,50 @@
+
 #flexp{
 	display: flex;
 	justify-content: left;
 	position: sticky;
 	top:20px;
+	flex-direction: column;
 	left:0;
+	max-width: 20%;
+	float: left;
+}
+
+#logo{
+	max-width: 300px;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: absolute;
+	right: 300px;
+	width: 60%;
+}
+
+#flexpara{
+	font-family: myfont;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#ntext{
+	float: left;
+	flex-wrap: wrap;
+}
+
+#momo{
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+#vertimg{
+	height:225px;
+	width: 400px;
+}
+
+@font-face {
+    font-family: 'myfont'; /*a name to be used later*/
+    src: 'HindMadurai-Light.ttf'; /*URL to font*/
 }
