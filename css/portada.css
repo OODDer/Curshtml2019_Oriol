@@ -1,4 +1,3 @@
-
 #flexp{
 	display: flex;
 	justify-content: left;
@@ -46,5 +45,5 @@ main{
 
 @font-face {
     font-family: 'myfont'; /*a name to be used later*/
-    src: 'HindMadurai-Light.ttf'; /*URL to font*/
+    src: url('https://github.com/OODDer/Curshtml2019_Oriol/blob/master/HindMadurai-Light.ttf'); /*URL to font*/
 }
