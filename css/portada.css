@@ -7,6 +7,7 @@
 	left:0;
 	max-width: 20%;
 	float: left;
+	background-color: white;
 }
 
 #logo{
@@ -15,7 +16,7 @@
 
 main{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	position: absolute;
 	right: 300px;
@@ -23,9 +24,9 @@ main{
 }
 
 #flexpara{
-	font-family: myfont;
+	/*font-family: myfont;*/
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column;
 }
 
 #ntext{
@@ -46,4 +47,23 @@ main{
 @font-face {
     font-family: 'myfont'; /*a name to be used later*/
     src: url('https://github.com/OODDer/Curshtml2019_Oriol/blob/master/HindMadurai-Light.ttf'); /*URL to font*/
+}
+
+#webcursos{
+	float: right;
+}
+
+#vid{
+	width: 720px;
+	height: 410px;
+}
+
+#webcursos{
+	right: 50px;
+}
+
+#rowflex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
