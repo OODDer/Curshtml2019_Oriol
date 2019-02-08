@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYANCAT</title>
+	<style type="text/css">
+		#flexcol{
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			background-color: firebrick;
+		}
+		#flexrow{
+			display: flex;
+			flex-direction: row;
+		}
+		#ad{
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			background-color: yellow;
+		}
+	</style>
+	<script type="text/javascript">
+		var secs=0;
+		window.onload = function(){
+			setInterval(tick,1000);
+		}
+		function tick(){
+			secs+=1;
+			document.getElementById("clock").innerHTML = secs;
+	</script>
+</head>
+<body>
+<header id=flexcol><h1>HAPPY VALENTINE'S DAY!</h1><br><h2>CREDITS · STORE · STATS</h2></header>
+<div id=ad><p>Limited edition nyan cat stickers!</p></div>
+<div id=flexcol>
+	<br><br><br><br><br><br><br>
+	<img src="img/vday.gif">
+	<br><br><br><br>
+	<div id=flexrow>
+		<img src="img/lovebot.gif">
+		<img src="img/lovebot.gif">
+	</div>
+	<p>You've nyaned for</p>
+	<div id=clock></div>
+	<p>SECONDS</p>
+	<p>TWEET YOUR SCORE</p>
+	<div id=flexrow>
+		<img src="img/facebook.png">
+		<img src="img/twitter.png">
+	</div>
+</div>
+
+</body>
+</html>

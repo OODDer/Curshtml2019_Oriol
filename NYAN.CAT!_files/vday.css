@@ -1,0 +1,61 @@
+body {
+  background: #c61d26;
+}
+
+.rainbow .wave-1 {
+  background:#c50000;
+}
+
+.rainbow .wave-2 {
+  background:#ff0000;
+}
+
+.rainbow .wave-3 {
+  background:#ff5252;
+}
+
+.rainbow .wave-4 {
+  background:#ff9999;
+}
+
+.rainbow .wave-5 {
+  background:#ffbdbd;
+}
+
+.rainbow .wave-6 {
+  background:#ffffff;
+}
+
+.star .dot {
+  background-color: rgba(0,0,0,0);
+}
+
+.star.frame-1 .wrapper {
+  background-repeat: no-repeat;
+  background-image: url('/style/stars/heart2.gif');
+  right: 5em;
+}
+
+.star.frame-2 .wrapper {
+  background-repeat: no-repeat;
+  background-image: url('/style/stars/heart3.gif');
+  right: 10em;
+}
+
+.star.frame-3 .wrapper {
+  background-repeat: no-repeat;
+  background-image: url('/style/stars/heart4.gif');
+  right: 15em;
+}
+
+.star.frame-4 .wrapper {
+  background-repeat: no-repeat;
+  background-image: url('/style/stars/heart5.gif');
+  right: 20em;
+}
+
+.star.frame-5 .wrapper {
+  background-repeat: no-repeat;
+  background-image: url('/style/stars/heart6.gif');
+  right: 25em;
+}
